@@ -4,7 +4,7 @@ A Python project that automatically detects and crops windows from images using 
 
 ## Overview
 
-This project uses the Grounding DINO model to detect windows in images and automatically crop them. It supports multiple image formats (JPG, JPEG, PNG, HEIC) and processes all images in the input directory, saving cropped windows and annotated detection results.
+This project uses the Grounding DINO model to detect windows in images and automatically crop them. It supports multiple image formats (JPG, JPEG, PNG) and processes all images in the input directory, saving cropped windows and annotated detection results.
 
 ## Requirements
 
