@@ -10,6 +10,7 @@ This project uses the Grounding DINO model to detect windows in images and autom
 
 - Python 3.x
 - High-performance graphics card (GPU recommended for faster processing, but CPU is supported)
+- Conda installed
 
 ## Setup
 
@@ -35,7 +36,6 @@ The script creates two output directories:
 
 - JPG/JPEG
 - PNG
-- HEIC
 
 ## Ratio Calculations
 
@@ -47,10 +47,6 @@ After cropping the window images, you can run ratio calculations on the cropped 
 
 3. **Run the ratio calculations**:
    ```bash
-   python ratio_calculations.py
-   ```
-   Or if using a Jupyter notebook:
-   ```bash
    jupyter notebook ratio_calculations.ipynb
    ```
 
@@ -59,3 +55,5 @@ After cropping the window images, you can run ratio calculations on the cropped 
 5. **Select pixels**: Once running, a screen will pop up with directions on how to proceed with selecting the green and blue pixels. Every 15 images there will be a checkpoint save that allows you to run the images in batches. It is recommended to do the whole set of images in one go.
 
 6. **View results**: Once done selecting the images, they will be saved in your chosen `base_dir`. If you would like to see all the data collectively in one Excel file, ignore the checkpoint Excel files and proceed to view the overall one.
+
+Have fun with your images! :D
