@@ -1,3 +1,26 @@
+# Input and output directories
 /input
 /output_cropped
 /output_detected
+/output_jpg
+
+# Analysis run directories (images + generated results)
+/final_extra/
+/final_extra_run/
+/output_3_29/
+/redo/
+/wurster two/
+/wurster two v2/
+/wurster two v3/
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.HEIC
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.webp
